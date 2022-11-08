@@ -1,0 +1,15 @@
+Feature: Realizar un comentario a una publicación
+
+Como usuario, quiero escribir un comentario para compartir lo que pienso
+
+    Scenario Outline: El usuario quiere comentar una publicación
+
+    Dado que el usuario esté ingresado a su cuenta
+    Y tenga una Post cuál comentar
+    Cuando presione en Comentar
+    Y escriba que desea comentar
+    Y seleccione Publicar
+    Entonces el comentario aparecerá en la barra de comentarios
+    Y otros usuarios pueden visualizar el comentario hecho
+
+

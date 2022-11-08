@@ -1,0 +1,20 @@
+Feature: Ingreso del usuario a su cuenta
+
+Como usuario, quiero poder ingresar a mi cuenta para tener acceso a lo que la red social ofrece.
+
+    Scenario Outline: El usuario ingresa desde el celular
+
+    Dado que el usuario tenga instalado la app
+    Y cuente con conexión a internet
+    Cuando el usuario presione la app
+    Entonces aparecerá la interfaz de ingreso
+
+
+    Scenario Outline: El usuario ingresa desde una computadora
+    Dado que el usuario esté un navegador
+    Y cuente con conexión a internet
+    Cuando el usuario ingrese a nuestra Página Web
+    Entonces aparecerá la interfaz de ingreso
+
+
+   

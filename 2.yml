@@ -1,0 +1,16 @@
+Feature: Editar su perfil
+
+Como usuario, quiero poder editar mi perfil para actualizar información o corregir un error.
+
+    Scenario Outline: El usuario desea editar su perfil
+
+    Dado que el usuario tenga una cuenta registrada
+    Cuando presione en el botón Perfil
+    Y seleccione editar
+    Entonces aparecerá la interfaz para editar el perfil.
+
+
+   
+
+
+   

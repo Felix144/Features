@@ -1,0 +1,16 @@
+Feature: Registrarse
+
+Como usuario, quiero poder registrarte  para entrar a la red social
+
+    Scenario Outline: El usuario quiere registrarse
+
+   Dado que el usuario esté en la pantalla de ingreso
+   Cuando presione el botón de Registrarse
+   Y ingrese su Username
+   Y ingrese su correo 
+   Y ingrese su contraseña
+   Y confirme su contraseña
+   Y Acepte los términos y condiciones
+   Y presione en Registrarse
+   Entonces se registrara la cuenta en la base de datos
+

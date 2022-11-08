@@ -1,0 +1,13 @@
+Feature: Realizar una donación al artista/publicador del post
+
+Realizar una donación al artista/publicador del post
+
+    Scenario Outline:  El usuario quiere realizar una donación
+
+    Dado que el usuario esté ingresado en su cuenta
+    Y tenga seleccionada una Post
+    Cuando el usuario presione en Donar
+    Y ingrese el modo de pago
+    Y confirme su decisión
+    Entonces aparecerá la interfaz para hacer la Donación
+

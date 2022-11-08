@@ -1,0 +1,11 @@
+Feature: Dar like
+
+Como usuario, quiero darle like a un post para mostrar mi apoyo o gusto a la publicación del usuario.
+
+    Scenario Outline: El usuario quiere dar like
+
+   Dado que el usuario esté ingresado a su cuenta
+   Y tenga una Post cuál darle like
+   Cuando presione en el corazón debajo de la descripción del post
+   Entonces el like será guardado en la base de datos
+   Y otros usuarios podrán ver el like

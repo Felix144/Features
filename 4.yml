@@ -1,0 +1,17 @@
+Feature: Publicar un post
+
+Como usuario (artista), quiero realizar un post para compartir mi contenido
+
+    Scenario Outline: El usuario quiere crear un post
+
+    Dado que el usuario esté ingresado en su cuenta
+    Cuando el usuario presione Publicar
+    Y ingrese el Título
+    Y suba una imagen/vídeo del contenido
+    Y escriba una descripción
+    Y seleccione todos los tags relacionados al contenido
+    Y seleccione el modo para recibir donaciones
+    Y presione en Publicar
+    Entonces el Post será publicado
+    Y otros usuario podrá visualizar el post
+

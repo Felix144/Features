@@ -1,0 +1,13 @@
+Feature: Reportar un bug/error
+
+Como usuario, quiero poder reportar un error para que se pueda arreglar y no malograr mi experiencia luego
+
+    Scenario Outline: El usuario quiere reportar
+
+    Dado que el usuario esté ingresado a su cuenta
+    Y tenga una Post cuál comentar
+    Cuando presione en Opciones
+    Y seleccione Reportar Error
+    Y ingrese el error qué y cuándo ocurrió
+    Y presione Enviar
+    Entonces el reporte será enviado
